@@ -1,0 +1,15 @@
+	  #include<LPC21XX.H>
+	 #define LED1 0x0F
+	#define LED2 0xF0
+	  int main(){
+	  PINSEL0=0;
+	  IODIR0=(1<<17;
+	  while(1){
+	  IOSET0=0x0F;
+	  IOCLR0=0xF0;
+		  delay();
+	IOSET0=0xF0;
+	  IOCLR0=0x0F;
+		delay();
+	  }
+	  }
