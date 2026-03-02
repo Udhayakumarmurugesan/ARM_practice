@@ -1,3 +1,5 @@
+//DHT is Sensor module which measures -> Temprature and Humidity(air moisture level)
+
 #include"lcd_n.h"
 #define DHT_PIN (1<<4)
 
